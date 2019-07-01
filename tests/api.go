@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	coreiface "github.com/ipfs/interface-go-ipfs-core"
+	coreiface "github.com/ipweb-group/interface-go-ipws-core"
 )
 
 var apiNotImplemented = errors.New("api not implemented")

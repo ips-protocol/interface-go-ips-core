@@ -4,9 +4,9 @@ package iface
 
 import (
 	"context"
-	path "github.com/ipfs/interface-go-ipfs-core/path"
+	path "github.com/ipweb-group/interface-go-ipws-core/path"
 
-	"github.com/ipfs/interface-go-ipfs-core/options"
+	"github.com/ipweb-group/interface-go-ipws-core/options"
 
 	ipld "github.com/ipfs/go-ipld-format"
 )

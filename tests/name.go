@@ -2,7 +2,7 @@ package tests
 
 import (
 	"context"
-	path "github.com/ipfs/interface-go-ipfs-core/path"
+	path "github.com/ipweb-group/interface-go-ipws-core/path"
 	"io"
 	"math/rand"
 	gopath "path"
@@ -12,8 +12,8 @@ import (
 	"github.com/ipfs/go-ipfs-files"
 	ipath "github.com/ipfs/go-path"
 
-	coreiface "github.com/ipfs/interface-go-ipfs-core"
-	opt "github.com/ipfs/interface-go-ipfs-core/options"
+	coreiface "github.com/ipweb-group/interface-go-ipws-core"
+	opt "github.com/ipweb-group/interface-go-ipws-core/options"
 )
 
 func (tp *provider) TestName(t *testing.T) {

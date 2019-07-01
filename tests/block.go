@@ -2,13 +2,13 @@ package tests
 
 import (
 	"context"
-	"github.com/ipfs/interface-go-ipfs-core/path"
+	"github.com/ipweb-group/interface-go-ipws-core/path"
 	"io/ioutil"
 	"strings"
 	"testing"
 
-	coreiface "github.com/ipfs/interface-go-ipfs-core"
-	opt "github.com/ipfs/interface-go-ipfs-core/options"
+	coreiface "github.com/ipweb-group/interface-go-ipws-core"
+	opt "github.com/ipweb-group/interface-go-ipws-core/options"
 
 	mh "github.com/multiformats/go-multihash"
 )

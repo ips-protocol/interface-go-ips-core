@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ipfs/interface-go-ipfs-core"
-	opt "github.com/ipfs/interface-go-ipfs-core/options"
+	"github.com/ipweb-group/interface-go-ipws-core"
+	opt "github.com/ipweb-group/interface-go-ipws-core/options"
 )
 
 func (tp *provider) TestKey(t *testing.T) {

@@ -1,4 +1,4 @@
-module github.com/ipfs/interface-go-ipfs-core
+module github.com/ipweb-group/interface-go-ipws-core
 
 require (
 	github.com/ipfs/go-cid v0.0.2
