@@ -33,6 +33,9 @@ type ConnectionInfo interface {
 
 	// Streams returns list of streams established with the peer
 	Streams() ([]protocol.ID, error)
+
+	// Beneficiary returns beneficiary wallet address
+	Beneficiary() (string, error)
 }
 
 // SwarmAPI specifies the interface to libp2p swarm
